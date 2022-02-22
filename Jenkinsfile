@@ -9,7 +9,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        archiveArtifacts 'release'
+        archiveArtifacts '*.json'
       }
     }
 
